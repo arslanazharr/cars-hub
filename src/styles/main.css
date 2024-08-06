@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  fill: black !important;
+}
+
+.icon.active {
+  fill: white !important;
+}
+
+.navlink:hover .icon {
+  fill: white !important;
+}
+
+.navlink:hover {
+  background: #242e69 !important;
+  color: white !important;
+}
+
+.vertical-dashed-line {
+  border-left: 1px dashed #d9d9d9;
+  height: 27px;
+}

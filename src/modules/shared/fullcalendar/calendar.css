@@ -1,0 +1,98 @@
+.root a {
+  text-decoration: none !important;
+}
+
+.root .fc-media-screen {
+  max-height: 436px !important;
+  width: 100%;
+  user-select: none;
+}
+
+.root .fc-scrollgrid-section > td {
+  border: 0;
+}
+
+.root .fc-daygrid-day:last-child {
+  border-right: 0;
+}
+
+.root .fc-timegrid-slot-label-cushion {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #424242 !important;
+  line-height: 20.4px !important;
+}
+
+.root .fc-col-header-cell {
+  border: none !important;
+  background-color: #f9f9f9;
+  padding: 10px 0 10px 0 !important;
+  color: #242e69;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  line-height: 20.4px !important;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.root .fc-view > .fc-scrollgrid {
+  border: 0;
+}
+
+.root .fc-daygrid-day.fc-day-today {
+  background-color: transparent !important;
+}
+
+.root .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+  border-radius: 100%;
+  background-color: #242e69;
+  color: white;
+}
+
+.root .fc-daygrid-day-top {
+  justify-content: center;
+}
+
+.root .fc-daygrid-day-top .fc-daygrid-day-number {
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  margin: 4px 0;
+  border-radius: 50%;
+  float: none;
+  line-height: 1;
+}
+
+.root .fc-h-event {
+  background: initial;
+}
+
+.root .fc-event {
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+  margin: 0 6px 4px 6px !important;
+}
+
+.root .fc-view tbody {
+  background-color: white;
+}
+
+.root .fc-timegrid-slot {
+  border: none;
+}
+
+.root .fc-timegrid-event:hover {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.root .fc-timegrid-axis {
+  border: none !important;
+  border-color: transparent !important;
+}
