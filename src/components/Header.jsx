@@ -31,6 +31,7 @@ const Header = () => {
                     viewBox="0 0 74 29"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="hover:opacity-75 transition"
                   >
                     <g clipPath="url(#clip0_1_3748)">
                       <path
