@@ -24,7 +24,7 @@ const Header = () => {
           <div className="flex">
             <div className="w-[114px] sm:block hidden">
               <div className="sm:!border-r !border-[#D9D9D9] !h-full py-[37px] px-[18px]">
-                <NavLink to="/calendar">
+                <NavLink to="/calendar" onClick={() => setIsSidebarOpen(false)}>
                   <svg
                     width="74"
                     height="29"
@@ -80,6 +80,7 @@ const Header = () => {
                     viewBox="0 0 30 22"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="hover:opacity-65 transition"
                   >
                     <g clipPath="url(#clip0_1_3478)">
                       <path
@@ -214,7 +215,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/dashboard"
-                className={`flex items-center h-[37px] navlink ${
+                className={`flex items-center h-[37px] transition navlink ${
                   isSidebarOpen
                     ? "translate-x-0 px-[22px]"
                     : "-translate-x-full sm:translate-x-0 w-[63px] justify-center"
@@ -256,7 +257,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/calendar"
-                className={`flex items-center h-[37px] navlink ${
+                className={`flex items-center h-[37px] transition navlink ${
                   isSidebarOpen
                     ? "translate-x-0 px-[22px]"
                     : "-translate-x-full sm:translate-x-0 w-[63px] justify-center"
@@ -297,7 +298,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/team"
-                className={`flex items-center h-[37px] navlink ${
+                className={`flex items-center h-[37px] transition navlink ${
                   isSidebarOpen
                     ? "translate-x-0 px-[22px]"
                     : "-translate-x-full sm:translate-x-0 w-[63px] justify-center"
@@ -342,7 +343,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/tasks"
-                className={`flex items-center h-[37px] navlink ${
+                className={`flex items-center h-[37px] transition navlink ${
                   isSidebarOpen
                     ? "translate-x-0 px-[22px]"
                     : "-translate-x-full sm:translate-x-0 w-[63px] justify-center"
@@ -386,7 +387,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/deals"
-                className={`flex items-center h-[37px] navlink ${
+                className={`flex items-center h-[37px] transition navlink ${
                   isSidebarOpen
                     ? "translate-x-0 px-[22px]"
                     : "-translate-x-full sm:translate-x-0 w-[63px] justify-center"
@@ -426,7 +427,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/target"
-                className={`flex items-center h-[37px] navlink ${
+                className={`flex items-center h-[37px] transition navlink ${
                   isSidebarOpen
                     ? "translate-x-0 px-[22px]"
                     : "-translate-x-full sm:translate-x-0 w-[63px] justify-center"
@@ -469,7 +470,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/settings"
-                className={`flex items-center h-[37px] navlink ${
+                className={`flex items-center h-[37px] transition navlink ${
                   isSidebarOpen
                     ? "translate-x-0 px-[22px]"
                     : "-translate-x-full sm:translate-x-0 w-[63px] justify-center"
