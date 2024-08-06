@@ -18,7 +18,7 @@ function AppContent() {
       <SideBarProvider>
         <Header />
         <main
-          className={`pt-[13vh] sm:pl-[16vh] pl-[18px] pr-[18px] !bg-white`}
+          className={`sm:pt-[13vh] pt-[17vh] sm:pl-[16vh] pl-[18px] pr-[18px] !bg-white`}
         >
           <Routes>
             <Route path="*" element={<Error />} />

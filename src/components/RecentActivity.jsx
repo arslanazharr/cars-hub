@@ -3,7 +3,7 @@ import { Tooltip } from "@mui/material";
 
 const RecentActivity = () => {
   return (
-    <div className="p-5 bg-white border border-[#D9D9D9] rounded-[12px] overflow-auto h-full">
+    <div className="p-3 sm:p-5 bg-white border border-[#D9D9D9] rounded-[12px] overflow-auto h-full">
       <p className="pb-4 text-[14px] leading-[23.8px] text-[#232323] font-semibold">
         Recent Activity
       </p>

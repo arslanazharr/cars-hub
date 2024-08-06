@@ -17,7 +17,7 @@ function CalendarApp() {
   };
 
   return (
-    <div className="root bg-[#FFFFFF] border border-[#D9D9D9] p-5 rounded-[12px] font-rubik">
+    <div className="root bg-[#FFFFFF] border border-[#D9D9D9] sm:p-5 p-3 rounded-[12px] font-rubik">
       <CalendarHeader calendarRef={calendarRef} currentDate={currentDate} />
       <FullCalendar
         plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}

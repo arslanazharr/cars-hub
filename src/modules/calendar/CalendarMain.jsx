@@ -10,15 +10,18 @@ const CalendarMain = () => {
   return (
     <>
       <div onClick={() => setIsSidebarOpen(false)}>
-        <section className="bg-[#F9F9F9] border border-[#D9D9D9] sm:px-[48px] px-5 sm:py-[31px] py-5 rounded-[10px] transition mb-[30px] font-rubik">
+        <h1 className="text-[25px] font-semibold leading-[37px] text-black md:pb-[55px] sm:pb-[45px] pb-[35px]">
+          Calendar
+        </h1>
+        <section className="bg-[#F9F9F9] border border-[#D9D9D9] sm:px-[48px] px-3 sm:py-[31px] py-5 rounded-[10px] transition mb-[30px] font-rubik">
           <Filters />
         </section>
-        <section className="w-full flex justify-end pb-[11px]">
+        <div className="w-full flex justify-end pb-[11px]">
           <p className="font-normal text-[#808080] text-[18px] underline leading-[21.33px] select-none cursor-pointer transition hover:opacity-65">
             Export
           </p>
-        </section>
-        <section className="bg-[#F9F9F9] border border-[#D9D9D9] p-5 rounded-[10px] transition min-h-full font-rubik">
+        </div>
+        <section className="bg-[#F9F9F9] border border-[#D9D9D9] sm:p-5 p-3 rounded-[10px] transition min-h-full font-rubik">
           <div className="grid grid-cols-12 gap-3 ">
             <div className="lg:col-span-8 col-span-12">
               <CalendarApp />
