@@ -121,7 +121,7 @@ const Header = () => {
                 viewBox="0 0 43 43"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="cursor-pointer"
+                className="cursor-pointer hover:opacity-75 transition"
               >
                 <rect
                   x="0.628906"
@@ -160,7 +160,7 @@ const Header = () => {
                 viewBox="0 0 43 43"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="cursor-pointer"
+                className="cursor-pointer hover:opacity-75 transition"
               >
                 <rect
                   x="0.628906"
