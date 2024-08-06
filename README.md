@@ -37,10 +37,10 @@ Cars Hub is a car buying and selling platform that allows users to buy and sell 
 
 ## Project Setup Instructions
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone <https://github.com/arslanazharr/cars-hub>`
 2. Navigate to the project directory: `cd cars-hub`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+4. Start the development server: `npm run dev`
 
 ## Dependencies Used
 
