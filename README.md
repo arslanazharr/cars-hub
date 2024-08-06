@@ -1,5 +1,9 @@
 # Cars Hub
 
+## Live Link
+
+[Cars Hub Live](https://carshub-eta.vercel.app/calendar)
+
 ## Built On
 
 - React JS
@@ -25,15 +29,10 @@
 ## State Management
 
 - React Context API
-- React Hooks
 
 ## Description
 
 Cars Hub is a car buying and selling platform that allows users to buy and sell cars from the comfort of their home. It offers a seamless and user-friendly interface to make the process of buying and selling cars easy and convenient.
-
-## Live Link
-
-[Cars Hub Live](https://carshub-eta.vercel.app/calendar)
 
 ## Project Setup Instructions
 
