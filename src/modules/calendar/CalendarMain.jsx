@@ -1,9 +1,15 @@
-import ActivityInfo from "../../components/ActivityInfo";
-import Filters from "../../components/Filters";
-import CalendarApp from "../shared/fullcalendar/CalendarApp";
-import RecentActivity from "../../components/RecentActivity";
+import React, { Suspense, useContext } from "react";
 import { SideBarContext } from "../../context/SideBarContext";
-import { useContext } from "react";
+import Filters from "../../components/Filters";
+import ActivityInfo from "../../components/ActivityInfo";
+import Loader from "../../components/Loader";
+
+const CalendarApp = React.lazy(() =>
+  import("../shared/fullcalendar/CalendarApp")
+);
+const RecentActivity = React.lazy(() =>
+  import("../../components/RecentActivity")
+);
 
 const CalendarMain = () => {
   const { setIsSidebarOpen } = useContext(SideBarContext);
@@ -22,9 +28,11 @@ const CalendarMain = () => {
           </p>
         </div>
         <section className="bg-[#F9F9F9] border border-[#D9D9D9] sm:p-5 p-3 rounded-[10px] transition min-h-full font-rubik">
-          <div className="grid grid-cols-12 gap-3 ">
+          <div className="grid grid-cols-12 gap-3">
             <div className="lg:col-span-8 col-span-12">
-              <CalendarApp />
+              <Suspense fallback={<Loader />}>
+                <CalendarApp />
+              </Suspense>
             </div>
             <div className="lg:col-span-4 col-span-12 flex flex-col lg:gap-4 gap-3">
               <ActivityInfo />
