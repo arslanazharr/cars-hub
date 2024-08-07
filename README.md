@@ -29,6 +29,7 @@
 ## State Management
 
 - React Context API
+- React Hooks
 
 ## Lazy Loading
 
