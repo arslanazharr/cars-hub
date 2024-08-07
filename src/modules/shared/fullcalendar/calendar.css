@@ -12,6 +12,10 @@
   border: 0;
 }
 
+.root .fc-scrollgrid-section th {
+  border: 0px !important;
+}
+
 .root .fc-daygrid-day:last-child {
   border-right: 0;
 }
