@@ -30,6 +30,10 @@
 
 - React Context API
 
+## Lazy Loading
+
+Major components in the application have been lazy-loaded to improve performance and reduce initial load times. This approach ensures that only the components currently needed are loaded, making the application more responsive and efficient.
+
 ## Description
 
 Cars Hub is a car buying and selling platform that allows users to buy and sell cars from the comfort of their home. It offers a seamless and user-friendly interface to make the process of buying and selling cars easy and convenient.
